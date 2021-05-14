@@ -52,7 +52,7 @@ try {
   sourcePegInput = parseInt(args[2]);
 } catch (e) {
   console.log(
-    "Invalid inputs. Syntax is 'node index.js A B C' where A = numDiscs, B = targetPeg, C = sourcePeg"
+    "Invalid inputs. Syntax is 'node hanoi.js A B C' where A = numDiscs, B = targetPeg, C = sourcePeg"
   );
   console.log(e);
   return;
